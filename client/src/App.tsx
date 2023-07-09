@@ -1,13 +1,15 @@
-
+import Footer from './components/Footer'
+import NavBar from './components/NavBar'
+import HomePage from './pages/HomePage'
 import './App.css'
 
 function App() {
 
   return (
     <div>
-      <header>Berry Fine Jewelry</header>
-      <main></main>
-      <footer>All rights reserved</footer>
+      <NavBar/>
+      <HomePage/>
+      <Footer/>
     </div>
   )
 }

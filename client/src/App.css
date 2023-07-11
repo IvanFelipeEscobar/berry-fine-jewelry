@@ -22,7 +22,7 @@ ul {
 }
 #nav-links {
   display: flex;
-  
+
 }
 @media (max-width: 743px) {
  
@@ -50,7 +50,18 @@ ul {
 #logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+#service-card {
+  margin:1rem;
+  width: 16rem;
+}
+#sl-img{
+  width: 8rem;
+  height: 8rem;
+}
+#sl-text{
+  color: beige;
+  background-color: rgb(120, 107, 32);
+}
 .card {
   padding: 2em;
 }

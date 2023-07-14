@@ -12,8 +12,9 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div>
+      
         <NavBar />
+        <main>
         <Routes>
           <Route path="/*" element={<HomePage />} />
           <Route path="/shop" element={<Shop />} />
@@ -21,8 +22,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/book-online" element={<BookOnline />} />
         </Routes>
+        </main>
         <Footer />
-      </div>
+      
     </Router>
   );
 }

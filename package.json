@@ -1,0 +1,22 @@
+{
+  "name": "berry-fine-jewelry",
+  "description": "## Description",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\"  \"npm run dev --prefix client\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanFelipeEscobar/berry-fine-jewelry.git"
+  },
+  "author": "Ivan Felipe Escobar",
+  "bugs": {
+    "url": "https://github.com/IvanFelipeEscobar/berry-fine-jewelry/issues"
+  },
+  "license": "ISC"
+}

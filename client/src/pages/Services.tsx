@@ -1,5 +1,5 @@
 import logoB from '../assets/berry_logo_mark.png'
-export default function BookOnline() {
+export default function Services() {
     return (
     <div>
         <h1>Book On line</h1>

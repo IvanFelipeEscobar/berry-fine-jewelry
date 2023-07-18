@@ -15,7 +15,7 @@ export default function NavBar() {
           <Link to="/shop">Shop</Link>
         </li>
         <li>
-          <Link to="/services">Book On Line</Link>
+          <Link to="/services">Services</Link>
         </li>
         <li>
           <Link to="/about">About</Link>

@@ -2,30 +2,20 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import HomePage from "./pages/HomePage";
-import Shop from "./pages/Shop";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Services from "./pages/Services";
+import { Outlet } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <>
       
         <NavBar />
         <main>
-        <Routes>
-          <Route path="/*" element={<HomePage />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/services" element={<Services />} />
-        </Routes>
+        <Outlet/>
         </main>
         <Footer />
       
-    </Router>
+    </>
   );
 }
 

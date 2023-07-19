@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
+import {Navbar, Nav, Container} from 'react-bootstrap'
 
 export default function NavBar() {
   return (
 
-    <nav className="top-nav" >
-      <div className="logo">
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar.Brand>
         <h1>Berry Fine Jewelry</h1>
-      </div>
+      </Navbar.Brand>
+      <Container className="justify-content-end">
       <ul className="nav-links">
         <li>
           <Link to="/">Home</Link>
@@ -23,7 +25,7 @@ export default function NavBar() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-      </ul>
-    </nav>
+      </ul></Container>
+    </Navbar>
   );
 }

@@ -1,2 +1,0 @@
-define(["exports"],(function(s){"use strict";s.SECURITY_CHECKUP_RELATIVE_URL="/security_checkup",s.VAULT_HASH_MODAL_KEY="modal",s.VAULT_HASH_TAB_KEY="tab",s.VAULT_NAME="Vault",s.VAULT_STYLESHEETS=["/static/metaserver/static/css/spectrum/index.web-vflJy4G-t.css","/static/metaserver/static/css/dig-components/index.web-vflGcQt8W.css","/static/typescript/component_libraries/vault/src/index.web-vflzJQwGo.css","/static/metaserver/static/css/vault/vault-vflbqmnaC.css"],s.VAULT_URL="/vault"}));
-//# sourceMappingURL=c_vault_constants.js-vflqHatzb.map

@@ -1,2 +1,0 @@
-define(["exports"],(function(t){"use strict";const e=/['&A-Za-z0-9\._%+-]+@[A-Za-z0-9-][A-Za-z0-9\.-]*\.[A-Za-z]{2,15}/gi,i=/[,|;>]+/;t.ContactsTokenizer=t=>({tokenizeAllRawInputs(e){const i=this.tokenizeValidRawInputs(e);return i.length>0?i:[t.buildFromRawEmail(e)]},tokenizeValidRawInputs:i=>(i.match(e)||[]).map(t.buildFromRawEmail),tokenizeDelimitedInputs(t){return i.test(t)?this.tokenizeValidRawInputs(t):[]}})}));
-//# sourceMappingURL=c_utils_contacts_tokenizer_contacts_tokenizer_util.js-vfl_mJggO.map

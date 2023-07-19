@@ -1,2 +1,0 @@
-define(["exports","./c_tslib","./e_edison","./e_ui_page_files_router","./c_spectrum_svg_icon_bundle"],(function(e,a,s,c,n){"use strict";const t=e=>{var{className:t,icon:o,name:l,disabled:i=!1,role:m="img"}=e,r=a.__rest(e,["className","icon","name","disabled","role"]);const _=c.cx(n.getClassNamesForName("actionable",l),{"mc-icon-template-actionable-disabled":i},t);return s.reactExports.cloneElement(o,Object.assign({className:_,role:m},r))};t.displayName="IconTemplateActionable",e.Component=t}));
-//# sourceMappingURL=c_icon_templates_actionable_index.js-vflvy1uQx.map

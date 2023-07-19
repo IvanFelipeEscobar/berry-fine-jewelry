@@ -1,2 +1,0 @@
-define(["exports","./e_edison"],(function(e,i){"use strict";e.Spacer=({multiplier:e=1})=>i.React$1.createElement("div",{style:{height:8*e,width:8*e,minHeight:8*e,minWidth:8*e}})}));
-//# sourceMappingURL=c_components_spacer_index.js-vflQ69n-N.map

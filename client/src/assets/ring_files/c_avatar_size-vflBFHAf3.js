@@ -1,2 +1,0 @@
-define(["exports"],(function(L){"use strict";var A;L.AvatarSize=void 0,(A=L.AvatarSize||(L.AvatarSize={}))[A.XSMALL=16]="XSMALL",A[A.SMALL=24]="SMALL",A[A.MEDIUM=32]="MEDIUM",A[A.LARGE=48]="LARGE",A[A.XLARGE=64]="XLARGE"}));
-//# sourceMappingURL=c_avatar_size.js-vflkwM-m2.map

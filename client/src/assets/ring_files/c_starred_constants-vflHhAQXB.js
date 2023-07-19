@@ -1,2 +1,0 @@
-define(["exports"],(function(S){"use strict";var E;S.StarredSource=void 0,(E=S.StarredSource||(S.StarredSource={})).HOME_STARRED="HOME_STARRED",E.HOME_RECENTS="HOME_RECENTS",E.BROWSE="BROWSE",E.FILE_VIEWER="FILE_VIEWER",E.SUGGESTED_STARS="SUGGESTED_STARS",E.HOME_TASKS="HOME_TASKS",S.StarredActionTypes={LOADING:"STARRED_LOADING",SET_STATUS:"STARRED_SET_STATUS",LOAD_FAILURE:"STARRED_LOAD_FAILURE"}}));
-//# sourceMappingURL=c_starred_constants.js-vflwzR1AF.map

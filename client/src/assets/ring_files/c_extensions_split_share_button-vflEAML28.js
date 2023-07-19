@@ -1,2 +1,0 @@
-define(["require","exports","./e_ui_page_files_router"],(function(e,t,n){"use strict";const o=n.Loadable({loader:()=>new Promise((function(t,n){e(["./c_extensions_split_share_button_component"],t,n)})).then((function(e){return e.split_share_button_component_esnext})).then((({SplitShareButton:e})=>e))});t.SplitShareButton=o}));
-//# sourceMappingURL=c_extensions_split_share_button.js-vflhe_M4c.map

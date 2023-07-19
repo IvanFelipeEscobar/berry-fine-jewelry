@@ -1,2 +1,0 @@
-define(["exports","./e_edison","./e_ui_page_files_router"],(function(e,t,a){"use strict";const i=({title:e,size:i,label:n})=>{const r="small"===i?a.InfoSmallLine:a.InfoLine;return t.React$1.createElement(a.Tooltip,{placement:"right",title:e},t.React$1.createElement(a.IconButton,{"aria-label":n,variant:"transparent",size:i,style:{color:"inherit"}},t.React$1.createElement(a.UIIcon,{src:r,"aria-hidden":"true",size:"standard"})))};i.displayName="HeaderTooltip",e.HeaderTooltip=i}));
-//# sourceMappingURL=c_ui_section_header_tooltip.js-vflAY69hf.map

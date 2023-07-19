@@ -1,0 +1,2 @@
+define(["exports","./c_lodash-es_lodash"],(function(e,n){"use strict";var o,t,s,r={exports:{}};o=r,t=!("undefined"==typeof window||!window.document||!window.document.createElement),s={canUseDOM:t,canUseWorkers:"undefined"!=typeof Worker,canUseEventListeners:t&&!(!window.addEventListener&&!window.attachEvent),canUseViewport:t&&!!window.screen},o.exports?o.exports=s:window.ExecutionEnvironment=s;var d=r.exports;e.exenvExports=d}));
+//# sourceMappingURL=c_exenv_index.js-vflHIciPk.map

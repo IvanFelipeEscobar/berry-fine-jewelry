@@ -1,0 +1,2 @@
+define(["exports","./e_edison","./e_ui_page_files_router","./c_core_i18n"],(function(e,t,n,r){"use strict";e.withCSS=function(e){return function(t){return n.requireCssWithComponent(t,e)}},e.withReduxStore=function(e){return function(r){const i=i=>t.React$1.createElement(n.Provider,{store:e},t.React$1.createElement(r,Object.assign({},i)));return i.displayName=`WithProvider(${n.getDisplayName(r)})`,i}}}));
+//# sourceMappingURL=c_ui_hoc.js-vflqlhisF.map

@@ -1,0 +1,2 @@
+define(["exports","./c_tslib","./e_edison","./e_ui_page_files_router","./c_spectrum_svg_icon_bundle"],(function(e,s,t,a,n){"use strict";const c=e=>{var{name:c,icon:o,className:l,role:r="img"}=e,i=s.__rest(e,["name","icon","className","role"]);const m=a.cx(n.getClassNamesForName("stateless",c),l);return t.reactExports.cloneElement(o,Object.assign({className:m,role:r},i))};c.displayName="IconTemplateStateless",e.Component=c}));
+//# sourceMappingURL=c_icon_templates_stateless_index.js-vflVAA8YE.map

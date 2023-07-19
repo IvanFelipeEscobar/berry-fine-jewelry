@@ -8,6 +8,7 @@ import Shop from "./pages/Shop";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
+import SingleItem from './components/SingleItem.tsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,8 @@ const router = createBrowserRouter([
       },
       {
         path:`/shop`, element: <Shop/>
+      },{
+        path:`/product/:slug`, element:<SingleItem/>
       },
       {
         path:`/about`, element: <About/>

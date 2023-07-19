@@ -1,0 +1,2 @@
+define(["require","exports","metaserver/static/js/ux_analytics/element_observers/mutation_observer","metaserver/static/js/ux_analytics/element_observers/intersection_observer"],(function(e,t,r,s){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.setUpElementShown=void 0,t.setUpElementShown=function(){const e=(0,r.createMutationObserverManager)(),t=(0,s.createIntersectionObserverManager)();e.registerElementMutationListener(t)}}));
+//# sourceMappingURL=interaction_observers.min.js-vflckiRCN.map

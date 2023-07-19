@@ -1,0 +1,2 @@
+define(["exports","./c_tslib"],(function(i,e){"use strict";const a=/^((?!chrome|android).)*safari/i.test(navigator.userAgent);i.handleSafariWorkaround=()=>e.__awaiter(void 0,void 0,void 0,(function*(){window.captureRecorderActive||a&&(window.safariScreenStream=yield navigator.mediaDevices.getDisplayMedia({video:{cursor:"always"},audio:!0}))}))}));
+//# sourceMappingURL=c_capture_sdk_helpers.js-vflk2K7sj.map
